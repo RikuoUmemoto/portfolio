@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
   <title>梅本 陸央 | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -43,13 +46,14 @@
     <!-- Profile / Career -->
     <section class="two-column-section" id="profile">
       <div class="section-card">
-        <h2>研究者情報</h2>
+        <h2>情報</h2>
         <div class="section-line"></div>
 
         <h3>所属</h3>
         <ul>
           <li>法政大学大学院 理工学研究科 応用情報工学専攻
-            <br />情報ネットワーク・セキュリティ研究室</li>
+            <br />情報ネットワーク・セキュリティ研究室
+            <br />金井敦研究室</li>
           <li>情報メディア教育研究センター　RA</li>
           <li>航空工学研究会HoPE</li>
         </ul>
@@ -59,7 +63,7 @@
           <li>情報セキュリティ</li>
           <li>AI・LLM (大規模言語モデル)</li>
           <li>意思決定支援</li>
-          <li>学習支援システム</li>
+          <li>カリキュラム分析</li>
           <li>人力飛行機</li>
         </ul>
       </div>
@@ -70,13 +74,19 @@
 
         <h3>プロフィール</h3>
         <p>
-          法政大学大学院理工学研究科応用情報工学専攻にて、
-          情報セキュリティ、AI・LLM、意思決定支援、学習支援システムに関する研究に取り組んでいます。
+          2022年に法政大学理工学部応用情報工学科へ入学し、同時に航空工学研究会HoPEに所属。
+          2023年から2026年にかけて鳥人間コンテストに参加し、2024年にはパイロットとして出場。
         </p>
         <p>
-          情報ネットワーク・セキュリティ研究室では、セキュリティにおける遵守・逸脱判断の意思決定分析に取り組んでいます。
-          また、情報メディア教育研究センターでは、LLMを用いた大学カリキュラムの構造化・可視化に関する研究に取り組んでいます。
+          2024年には情報ネットワーク・セキュリティ研究室（金井敦研究室）に所属し、同年、ミライケータイプロジェクトに参加。
+          その後、鳥人間コンテストでの経験を背景として、切迫状況下における人間の意思決定とセキュリティ判断に関する研究を開始。
         </p>
+        <p>
+          2025年には情報メディア教育研究センターに臨時職員として配属、LLMを用いた大学カリキュラムの構造化・可視化に関する研究を開始。
+          2026年に法政大学を卒業後、同大学大学院理工学研究科応用情報工学専攻に進学、情報メディア教育研究センターにRAとして再配属。
+          現在は情報セキュリティ、AI・LLM、意思決定支援、学習支援システムに関する研究に取り組んでいる。
+        </p>
+
       </div>
     </section>
 
@@ -113,6 +123,35 @@
       </div>
     </section>
 
+     <!-- Publications -->
+    <section class="content-section" id="publications">
+      <h2>発表・研究業績</h2>
+      <div class="section-line"></div>
+
+      <ol class="publication-list">
+        <li>
+          <a href="https://ipsj.ixsq.nii.ac.jp/records/2008478" target="_blank" rel="noopener noreferrer">
+          ヴィネット方式を用いたセキュリティ判断に影響する要因分析の研究．
+          情報処理学会研究報告 マルチメディア通信と分散処理（DPS），2026-DPS-206(35)，pp.1-8，2026．
+          </a>
+        </li>
+        <li>
+          <a href="https://www.hosei.ac.jp/media/research/activity/symp2026/" target="_blank" rel="noopener noreferrer">
+          LLMを用いた科目－概念二層グラフによる大学カリキュラムの地図化．
+          法政大学情報メディア教育研究センターシンポジウム2026
+          「生成AIが変える大学・企業と学びのかたち」，2026．
+          </a>
+        </li>
+        <li>
+          LLMによるシラバス概念抽出に基づく科目–概念二層グラフの構築と可視化．
+          法政大学情報メディア教育研究センター研究報告，2026．（投稿中）
+        </li>
+        <li>
+          題目非公開．2026 IEEE 15th Global Conference on Consumer Electronics (GCCE 2026)．（審査中）
+        </li>
+      </ol>
+    </section>
+
     <!-- Skills -->
     <section class="content-section">
       <h2>スキル</h2>
@@ -122,9 +161,11 @@
         <span>実験設計</span>
         <span>調査設計</span>
         <span>統計解析</span>
-        <span>行動データ分析</span>
+        <span>意思決定分析</span>
+        <span>AI</span>
         <span>自然言語処理</span>
-        <span>LLM活用</span>
+        <span>大規模言語モデル(LLM)</span>
+        <span>ローカルLLM</span>
         <span>Flutter</span>
         <span>Firebase</span>
         <span>バックエンド開発</span>
@@ -132,30 +173,7 @@
       </div>
     </section>
 
-    <!-- Publications -->
-    <section class="content-section" id="publications">
-      <h2>発表・研究業績</h2>
-      <div class="section-line"></div>
-
-      <ol class="publication-list">
-        <li>
-          ヴィネット方式を用いたセキュリティ判断に影響する要因分析の研究．
-          情報処理学会研究報告 マルチメディア通信と分散処理（DPS），2026-DPS-206(35)，pp.1-8，2026．
-        </li>
-        <li>
-          LLMを用いた科目－概念二層グラフによる大学カリキュラムの地図化．
-          法政大学情報メディア教育研究センターシンポジウム2026
-          「生成AIが変える大学・企業と学びのかたち」，2026．
-        </li>
-        <li>
-          LLMによるシラバス概念抽出に基づく科目–概念二層グラフの構築と可視化．
-          法政大学情報メディア教育研究センター研究報告，2026．（投稿中）
-        </li>
-        <li>
-          題目非公開．IEEE GCCE 2026．（審査中）
-        </li>
-      </ol>
-    </section>
+   
 
     <!-- Activities -->
     <section class="content-section" id="activities">

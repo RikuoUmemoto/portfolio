@@ -20,10 +20,12 @@ html {
 
 body {
   margin: 0;
-  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
-  color: var(--text);
-  background: var(--bg);
-  line-height: 1.8;
+  font-family: "Noto Serif JP", "Yu Mincho", "Hiragino Mincho ProN", serif;
+  color: #2b2b2b;
+  background: #f7f7f7;
+  font-size: 17px;
+  line-height: 1.9;
+  letter-spacing: 0.02em;
 }
 
 a {
@@ -248,12 +250,14 @@ a {
   background: #fff;
 }
 
+/*
 .research-card:hover,
 .activity-card:hover {
   border-color: var(--orange);
   transform: translateY(-2px);
   transition: 0.2s ease;
 }
+*/
 
 /* Skills */
 
@@ -280,6 +284,20 @@ a {
 
 .publication-list li {
   margin-bottom: 18px;
+}
+
+.publication-list a {
+  color: #1f3f9a;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(31, 63, 154, 0.35);
+  transition: color 0.2s ease, border-bottom-color 0.2s ease, background-color 0.2s ease;
+}
+
+.publication-list a:hover {
+  color: #ffffff;
+  background-color: #1f3f9a;
+  border-bottom-color: #1f3f9a;
 }
 
 /* Activities */
