@@ -444,3 +444,59 @@ a {
   pointer-events: auto;
   transform: rotate(45deg);
 }
+/* Career timeline */
+
+.career-timeline {
+  margin-top: 4px;
+}
+
+.career-item {
+  display: grid;
+  grid-template-columns: 86px minmax(0, 1fr);
+  column-gap: 28px;
+  padding: 20px 0;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.career-item:first-child {
+  padding-top: 0;
+}
+
+.career-item:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.career-year {
+  color: var(--main-blue);
+  font-size: 19px;
+  line-height: 1.9;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+
+.career-content {
+  color: #333;
+  min-width: 0;
+}
+
+.career-content p {
+  margin: 0;
+}
+
+.career-content p + p {
+  margin-top: 10px;
+}
+
+@media (max-width: 560px) {
+  .career-item {
+    grid-template-columns: 58px minmax(0, 1fr);
+    column-gap: 14px;
+    padding: 16px 0;
+  }
+
+  .career-year {
+    font-size: 15px;
+  }
+}
